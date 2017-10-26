@@ -51,6 +51,7 @@ for tempo in range(len(a)):
 	start_mili=str(start_mili).replace("0.","")
 	end_mili=round(end-int(end),3)
 	end_mili=str(end_mili).replace("0.","")
+	#milliseconds
 	if(len(start_mili)==2):
 		start_mili=start_mili+'0'
 	elif(len(start_mili)==1):
@@ -61,7 +62,17 @@ for tempo in range(len(a)):
 	elif(len(end_mili)==1):
 		end_mili=end_mili+'00'
 
-	subFile.write('''%i\n%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,end,end_mili,legenda.encode('utf-8')))
+	#minutes
+	if(start>=60):
+		minutos=start/60
+		segundos = (minutos - int(minutos))*60
+		if(segundos<10):
+			segundos=str(segundos)
+			segundos="0"+segundos
+		print ('%.0f:%.2s,%s'% (minutos,segundos,start_mili))
+		#seconds
+
+	subFile.write('''%i\n00:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,end,end_mili,legenda.encode('utf-8')))
 	index+=1
 
 subFile.close()
