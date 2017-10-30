@@ -43,7 +43,7 @@ for child in root:
 index = 1
 subFile = open("subtitle.srt","w+")
 for tempo in range(len(a)):
-	#print (a[tempo]["start"])
+	#print (a[tempo]["dur"])
 	legenda = root[tempo].text
 	start = round(float(a[tempo]["start"]),3)
 	end =  float(a[tempo]["dur"])+start
@@ -62,24 +62,38 @@ for tempo in range(len(a)):
 	elif(len(end_mili)==1):
 		end_mili=end_mili+'00'
 
-	#minutes
+	if(end>60):
+		end = end/60
+		end_sec = end - int(end)
+		end_sec = str(end_sec)
+		if(len(end_sec)<=4):
+			end_sec = str(end).replace(".",",")
+			print(end)
+		else:
+			end_sec = round(end,3)
+			print ("%.3f" % end_sec)
+	elif (end/60<1):
+		end_sec = str(end).replace(".",",")
+		print(end_sec)
+	#minutes start
 	if(start/60>1):
 		minutos=start/60
 		segundos = (minutos - int(minutos))*60
-		if(segundos<10 or minutos<10):
+		if(segundos<10):
 			segundos=str(segundos)
 			segundos="0"+segundos
 		if(minutos<10):
 			minutos=str(minutos)
 			minutos="0"+minutos
-		print ('%.2s:%.2s,%s'% (minutos,segundos,start_mili))
+		#print ('%.2s:%.2s,%s --> %s'% (minutos,segundos,start_mili))
 		#seconds
 	elif(start/60<1):
 		if(start<10):
 			start=str(start)
 			start="0"+start
-		print ('00:%.2s,%s' % (start,start_mili))
+		#print ('00:%.2s,%s' % (start,start_mili))
 		start=float(start)
+
 	subFile.write('''%i\n:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,end,end_mili,legenda.encode('utf-8')))
 	index+=1
 

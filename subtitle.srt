@@ -44,1324 +44,1324 @@ Nos últimos anos, na última década,
 o Brasil teve o que talvez tenha sido
 
 11
-:57,275 --> 61,785
+:57,275 --> 1,785
 uma das maiores transformações
 econômicas da sua vida.
 
 12
-:62,585 --> 64,562
+:62,585 --> 1,562
 A renda mudou.
 
 13
-:65,292 --> 68,181
+:65,292 --> 1,181
 Mudou de forma desigual.
 
 14
-:70,181 --> 74,993
+:70,181 --> 1,993
 Mudou de forma desigual,
 porque a renda dos mais ricos
 
 15
-:74,993 --> 77,303
+:74,993 --> 1,303
 cresceu três vezes menos
 do que a renda dos mais pobres.
 
 16
-:77,303 --> 82,715
+:77,303 --> 1,715
 E aquele país, que historicamente
 tinha uma estrutura de pirâmide social,
 
 17
-:82,715 --> 86,425
+:82,715 --> 1,425
 muito mais gente
 na extrema pobreza do que ricos,
 
 18
-:86,425 --> 90,907
+:86,425 --> 1,907
 virou um país com uma estrutura
 de losango social,
 
 19
-:90,907 --> 93,769
+:90,907 --> 2,769
 com mais gente no meio da pirâmide.
 
 20
-:95,892 --> 100,178
+:95,892 --> 2,178
 E é a historia desses brasileiros
 que eu vou dividir com vocês hoje.
 
 21
-:102,998 --> 106,841
+:102,998 --> 2,841
 Mas não dá pra entender essas mudanças,
 
 22
-:106,841 --> 111,752
+:106,841 --> 2,752
 é impossível entender o outro,
 
 23
-:111,752 --> 114,799
+:111,752 --> 2,799
 sem que antes a gente consiga se entender.
 
 24
-:117,971 --> 118,429
+:117,971 --> 2,429
 Eu sou homem.
 
 25
-:119,219 --> 121,729
+:119,219 --> 2,729
 Eu sou branco.
 
 26
-:122,599 --> 125,979
+:122,599 --> 2,979
 Eu moro numa das maiores
 metrópoles do mundo.
 
 27
-:125,979 --> 130,109
+:125,979 --> 2,109
 Eu sou a terceira geração
 de universitários na minha família.
 
 28
-:130,109 --> 132,492
+:130,109 --> 2,492
 Eu sou um privilegiado.
 
 29
-:132,495 --> 135,321
+:132,495 --> 2,321
 E é impossível entender o Brasil,
 
 30
-:135,321 --> 140,011
+:135,321 --> 2,011
 pra alguém que teve as condições
 e as chances que eu tive na minha vida,
 
 31
-:141,841 --> 145,823
+:141,841 --> 2,823
 sem antes eu entender
 a minha condição de privilegiado.
 
 32
-:145,823 --> 148,958
+:145,823 --> 2,958
 Os brancos ganham mais que os negros.
 
 33
-:148,958 --> 152,688
+:148,958 --> 3,688
 Os homens ganham mais que as mulheres.
 
 34
-:152,688 --> 154,817
+:152,688 --> 3,817
 Quem nasce numa grande capital
 
 35
-:154,817 --> 158,847
+:154,817 --> 3,847
 tem mais chance
 do que quem nasce no interior.
 
 36
-:161,927 --> 164,354
+:161,927 --> 3,354
 E ter pais e avós universitários
 
 37
-:164,354 --> 168,984
+:164,354 --> 3,984
 conseguiu me dar,
 antes de quem não teve isso,
 
 38
-:168,984 --> 171,344
+:168,984 --> 3,344
 de quem é a primeira geração
 de universitários da família,
 
 39
-:171,344 --> 175,644
+:171,344 --> 3,644
 um privilégio que eles não tiveram.
 
 40
-:175,644 --> 177,311
+:175,644 --> 3,311
 Condições de sair na frente.
 
 41
-:180,595 --> 182,231
+:180,595 --> 3,231
 E isso também é fundamental pra entender
 
 42
-:182,231 --> 186,781
+:182,231 --> 3,781
 quem é essa tal de &quot;nova classe média&quot;
 que todo mundo aparece.
 
 43
-:188,041 --> 190,764
+:188,041 --> 3,764
 No Brasil,
 
 44
-:193,124 --> 198,024
+:193,124 --> 3,024
 parece que as pessoas têm um certo receio
 
 45
-:198,024 --> 201,404
+:198,024 --> 3,404
 de como se ver, de como se enxergar.
 
 46
-:203,964 --> 208,471
+:203,964 --> 3,471
 Levanta a mão pra mim, por favor,
 na plateia, quem é rico.
 
 47
-:212,642 --> 213,134
+:212,642 --> 4,134
 Quem é pobre.
 
 48
-:214,290 --> 216,200
+:214,290 --> 4,200
 Quem é classe média.
 
 49
-:218,705 --> 219,961
+:218,705 --> 4,961
 Bom...
 
 50
-:220,011 --> 226,671
+:220,011 --> 4,671
 A gente fez um recorte
 numa pesquisa nossa
 
 51
-:226,671 --> 228,671
+:226,671 --> 4,671
 em que a gente perguntou pra essas pessoas
 
 52
-:228,671 --> 232,021
+:228,671 --> 4,021
 que fazem parte
 dos 15% mais ricos do Brasil,
 
 53
-:232,021 --> 235,691
+:232,021 --> 4,691
 e que são pelo menos a segunda
 geração de universitários,
 
 54
-:235,691 --> 237,111
+:235,691 --> 4,111
 como é que elas se enxergavam.
 
 55
-:237,111 --> 241,005
+:237,111 --> 4,005
 Um por cento disse que era de classe alta,
 
 56
-:241,005 --> 246,095
+:241,005 --> 4,095
 13% de média-alta, 47% de classe média
 
 57
-:246,095 --> 251,515
+:246,095 --> 4,515
 e 4 de cada 10 jura que são pobres.
 
 58
-:252,355 --> 254,200
+:252,355 --> 4,200
 Teve até, quando foi divulgado isso
 
 59
-:254,200 --> 256,340
+:254,200 --> 4,340
 num jornal de grande
 circulação em São Paulo,
 
 60
-:256,340 --> 258,970
+:256,340 --> 4,970
 um cara que escreveu falando:
 
 61
-:258,970 --> 261,030
+:258,970 --> 4,030
 &quot;Olha, ontem, lendo o jornal,
 descobri que sou rico.
 
 62
-:261,030 --> 263,650
+:261,030 --> 4,650
 Só que não, eu sou pobre.
 
 63
-:263,650 --> 265,960
+:263,650 --> 4,960
 Sou pai de família, tenho três filhos.
 
 64
-:265,960 --> 269,340
+:265,960 --> 4,340
 Eu tenho que pagar colégio particular
 para os meus três filhos,
 
 65
-:269,340 --> 273,070
+:269,340 --> 5,070
 convênio médico pra família inteira,
 colocar gasolina nos meus dois carros,
 
 66
-:273,070 --> 276,695
+:273,070 --> 5,695
 viajar pra Disney todo ano!
 
 67
-:276,695 --> 280,641
+:276,695 --> 5,641
 Como é que vem falar que eu sou rico,
 sou pobre, não sobra dinheiro pra nada&quot;.
 
 68
-:281,041 --> 283,280
+:281,041 --> 5,280
 Porque aqui rico é sempre o outro.
 
 69
-:286,690 --> 291,765
+:286,690 --> 5,765
 No Brasil, classe econômica
 não é classe social,
 
 70
-:291,765 --> 294,325
+:291,765 --> 5,325
 então não estamos falando de sociologia,
 estamos falando de economia.
 
 71
-:294,325 --> 297,170
+:294,325 --> 5,170
 São pessoas que têm uma renda,
 por pessoa da família,
 
 72
-:297,170 --> 303,245
+:297,170 --> 5,245
 que varia de R$ 338 a R$ 1.184
 por pessoa da família.
 
 73
-:303,245 --> 305,252
+:303,245 --> 5,252
 Não é salário, é renda per capita.
 
 74
-:305,252 --> 311,253
+:305,252 --> 5,253
 E isso dá, na média, uma renda familiar,
 somando a renda de todos da família,
 
 75
-:311,253 --> 316,733
+:311,253 --> 5,733
 de um pouco mais de R$ 1,2 mil
 a pouco mais de R$ 4,5 mil.
 
 76
-:317,883 --> 320,159
+:317,883 --> 5,159
 Cá entre nós, isso é muito ou pouco
 pra ser chamado de classe média?
 
 77
-:321,676 --> 322,671
+:321,676 --> 5,671
 É pouco, né?
 
 78
-:323,218 --> 325,594
+:323,218 --> 5,594
 É pouco.
 
 79
-:325,420 --> 329,449
+:325,420 --> 5,449
 Mas é média porque é essa
 a parcela da população brasileira
 
 80
-:329,449 --> 333,009
+:329,449 --> 6,009
 que tem a média da renda do Brasil.
 
 81
-:334,729 --> 338,067
+:334,729 --> 6,067
 Pode parecer pouco,
 mas é retrato de um país desigual,
 
 82
-:338,067 --> 341,766
+:338,067 --> 6,766
 que quando a gente pega os 5% mais ricos,
 
 83
-:341,766 --> 344,466
+:341,766 --> 6,466
 começa com uma renda
 por pessoa da família de R$ 2.500.
 
 84
-:346,366 --> 348,176
+:346,366 --> 6,176
 O que deve ter de gente aqui
 
 85
-:348,176 --> 352,116
+:348,176 --> 6,116
 que entrou achando que era classe média
 e descobriu que é rico, é impressionante.
 
 86
-:354,712 --> 358,561
+:354,712 --> 6,561
 Então esse dado nos dá duas notícias,
 uma ruim e uma boa.
 
 87
-:358,561 --> 360,283
+:358,561 --> 6,283
 A ruim é que apesar
 dos avanços que o Brasil tem,
 
 88
-:360,283 --> 362,933
+:360,283 --> 6,933
 o Brasil ainda é desigual.
 
 89
-:362,933 --> 365,974
+:362,933 --> 6,974
 A boa é que nós e o Abilio Diniz
 somos da mesma classe econômica,
 
 90
-:365,974 --> 369,074
+:365,974 --> 6,074
 tá todo mundo lá no topo
 da pirâmide de renda do Brasil.
 
 91
-:370,924 --> 373,241
+:370,924 --> 6,241
 E enxergar isso, e enxergar o outro,
 
 92
-:373,241 --> 377,061
+:373,241 --> 6,061
 enxergar de onde a gente vem,
 pra onde a gente vai,
 
 93
-:377,061 --> 380,660
+:377,061 --> 6,660
 nos permite entender de diferenças.
 
 94
-:382,257 --> 387,973
+:382,257 --> 6,973
 E entender a necessidade
 de ter respeito por essas diferenças.
 
 95
-:387,973 --> 391,657
+:387,973 --> 7,657
 Porque nesse processo que levou o Brasil
 
 96
-:391,657 --> 396,827
+:391,657 --> 7,827
 a ser um país que diminuiu
 radicalmente a sua pobreza,
 
 97
-:396,827 --> 400,474
+:396,827 --> 7,474
 teve como efeito colateral
 um grande incômodo
 
 98
-:400,474 --> 404,394
+:400,474 --> 7,394
 da classe média tradicional
 e das elites tradicionais do nosso país.
 
 99
-:404,394 --> 407,130
+:404,394 --> 7,130
 Eu tenho certeza que aqui
 ninguém jamais falou esta frase,
 
 100
-:407,130 --> 409,450
+:407,130 --> 7,450
 mas talvez vocês já tenham ouvido falar:
 
 101
-:409,450 --> 412,471
+:409,450 --> 7,471
 &quot;Este aeroporto virou uma rodoviária!&quot;
 
 102
-:413,369 --> 416,032
+:413,369 --> 7,032
 Tenho certeza que aqui
 ninguém nunca falou isso,
 
 103
-:416,032 --> 419,512
+:416,032 --> 7,512
 mas talvez vocês conheçam
 alguém que já tenha falado.
 
 104
-:419,512 --> 421,912
+:419,512 --> 7,912
 Como se a culpa fosse da classe C...
 
 105
-:422,892 --> 426,476
+:422,892 --> 7,476
 Essa elite que está incomodada
 tem uma visão muito própria
 
 106
-:426,476 --> 429,223
+:426,476 --> 7,223
 sobre a democratização
 do consumo no Brasil.
 
 107
-:429,223 --> 431,691
+:429,223 --> 7,691
 Cinquenta e oito por cento
 
 108
-:431,691 --> 437,531
+:431,691 --> 7,531
 acham que deveria ser obrigatório ter
 versão de produto pra rico e pra pobre.
 
 109
-:437,531 --> 439,411
+:437,531 --> 7,411
 Cinquenta por cento afirmaram
 frequentar apenas ambientes
 
 110
-:439,411 --> 443,341
+:439,411 --> 7,341
 com pessoas do seu mesmo nível social.
 
 111
-:443,341 --> 446,011
+:443,341 --> 7,011
 Dezessete por cento acham
 que pessoas malvestidas
 
 112
-:446,011 --> 450,701
+:446,011 --> 7,701
 deveriam ser barradas
 de entrar em certos lugares.
 
 113
-:450,701 --> 454,821
+:450,701 --> 8,821
 Vinte e seis por cento são contra
 o metrô no bairro onde moram,
 
 114
-:454,821 --> 456,401
+:454,821 --> 8,401
 porque acham que o metrô
 
 115
-:456,401 --> 460,161
+:456,401 --> 8,161
 aumenta a circulação
 de pessoas indesejadas na região,
 
 116
-:460,161 --> 463,421
+:460,161 --> 8,421
 ou diferenciadas,
 como se diz em São Paulo.
 
 117
-:463,421 --> 467,805
+:463,421 --> 8,805
 Apesar de que andar de metrô
 em Nova York é lindo.
 
 118
-:469,304 --> 474,685
+:469,304 --> 8,685
 E 17% acham que todo
 estabelecimento comercial
 
 119
-:474,685 --> 479,525
+:474,685 --> 8,525
 deveria ter elevador separado
 de patrão e empregado.
 
 120
-:479,465 --> 482,283
+:479,465 --> 8,283
 E esses são os que admitem...
 
 121
-:483,310 --> 486,470
+:483,310 --> 8,470
 E esses são os que admitem.
 
 122
-:489,760 --> 493,101
+:489,760 --> 8,101
 O primeiro movimento que existiu,
 dessa elite tradicional,
 
 123
-:494,921 --> 496,331
+:494,921 --> 8,331
 com o aumento da renda
 
 124
-:496,331 --> 499,673
+:496,331 --> 8,673
 e do que alguns chamam
 de novo mercado consumidor,
 
 125
-:499,673 --> 502,435
+:499,673 --> 8,435
 foi tentar catequizar
 
 126
-:503,475 --> 506,245
+:503,475 --> 8,245
 o brasileiro que estava
 melhorando de vida.
 
 127
-:506,245 --> 508,992
+:506,245 --> 8,992
 Como se existisse um único padrão.
 
 128
-:508,992 --> 511,322
+:508,992 --> 9,322
 &quot;Esse cara vai melhorar de vida,
 então ele tem que ser parecido comigo.
 
 129
-:511,322 --> 514,676
+:511,322 --> 9,676
 Seguir os meus gostos.&quot;
 
 130
-:515,196 --> 516,441
+:515,196 --> 9,441
 Só que não rola...
 
 131
-:518,602 --> 520,940
+:518,602 --> 9,940
 E aí nós entendemos
 
 132
-:521,050 --> 525,640
+:521,050 --> 9,640
 que inclusão de verdade,
 
 133
-:525,640 --> 527,170
+:525,640 --> 9,170
 inclusão de verdade,
 
 134
-:528,050 --> 530,840
+:528,050 --> 9,840
 não é renda, é respeito.
 
 135
-:531,290 --> 533,160
+:531,290 --> 9,160
 Não é consumo.
 
 136
-:536,510 --> 538,000
+:536,510 --> 9,000
 É a busca da igualdade.
 
 137
-:540,500 --> 545,432
+:540,500 --> 9,432
 A adversidade em que esses brasileiros
 cresceram, ao longo da sua vida,
 
 138
-:545,432 --> 550,532
+:545,432 --> 9,532
 fez com que se criasse
 um ecossistema econômico
 
 139
-:551,562 --> 557,572
+:551,562 --> 9,572
 que faz com que o &quot;se-virômetro&quot;,
 que é a unidade de medida da periferia,
 
 140
-:557,572 --> 560,882
+:557,572 --> 9,882
 é a capacidade de se virar na adversidade,
 
 141
-:560,882 --> 564,722
+:560,882 --> 9,722
 fosse muito maior na periferia do Brasil
 
 142
-:564,722 --> 567,982
+:564,722 --> 9,982
 e desse um novo sentido
 para o &quot;jeitinho brasileiro&quot;,
 
 143
-:569,002 --> 573,660
+:569,002 --> 10,660
 que está longe de ser
 &quot;levar vantagem sobre alguma coisa&quot;
 
 144
-:573,660 --> 576,710
+:573,660 --> 10,710
 e está muito mais ligado à capacidade
 
 145
-:576,710 --> 579,890
+:576,710 --> 10,890
 de conseguir transformar
 limão em limonada.
 
 146
-:582,210 --> 587,924
+:582,210 --> 10,924
 Eu vou dar um exemplo: outro dia cheguei
 lá no Data Popular, estava atrasado.
 
 147
-:588,624 --> 592,514
+:588,624 --> 10,514
 Esqueci meu crachá, fui pegar meu crachá,
 o Zé viu meu telefone e falou:
 
 148
-:592,514 --> 593,804
+:592,514 --> 10,804
 &quot;Bonito, hein, Sr. Renato?&quot;
 
 149
-:593,804 --> 595,424
+:593,804 --> 10,424
 O Zé é o porteiro.
 
 150
-:595,424 --> 598,834
+:595,424 --> 10,834
 &quot;Bonito, hein, Sr. Renato? É o seis?&quot;
 
 151
-:599,690 --> 601,800
+:599,690 --> 10,800
 Falei: &quot;É, é o seis&quot;.
 
 152
-:601,800 --> 604,010
+:601,800 --> 10,010
 &quot;Desculpa a pergunta, Sr. Renato, 
 quanto o senhor pagou por ele?&quot;
 
 153
-:604,430 --> 607,017
+:604,430 --> 10,017
 Falei: &quot;Zé, eu ganhei.
 
 154
-:608,257 --> 612,257
+:608,257 --> 10,257
 Não paguei por nada, fui fazer
 uma palestra e ganhei um celular,
 
 155
-:612,257 --> 615,577
+:612,257 --> 10,577
 mas deve custar uns
 R$ 3 mil, R$ 3,5 mil&quot;.
 
 156
-:615,577 --> 619,479
+:615,577 --> 10,479
 &quot;Tudo isso, Sr. Renato.
 Cliente bom esse, hein?
 
 157
-:619,479 --> 624,706
+:619,479 --> 10,706
 Mas compensa? Quantos megapixels
 tem na câmera dele?&quot;
 
 158
-:624,706 --> 625,378
+:624,706 --> 10,378
 &quot;Sei lá, Zé, uns oito, ou dez.&quot;
 
 159
-:625,378 --> 628,479
+:625,378 --> 10,479
 &quot;Só isso, Sr. Renato?
 
 160
-:628,479 --> 631,859
+:628,479 --> 11,859
 A TV digital dele é bacana?&quot;
 
 161
-:631,859 --> 633,960
+:631,859 --> 11,960
 &quot;É... É... não tem TV digital, Zé.&quot;
 
 162
-:633,960 --> 636,913
+:633,960 --> 11,913
 &quot;Como assim? Vai dizer que o Bluetooth
 também não é muito bom?&quot;
 
 163
-:636,913 --> 637,965
+:636,913 --> 11,965
 &quot;Não, é uma porcaria.&quot;
 
 164
-:637,965 --> 639,405
+:637,965 --> 11,405
 &quot;E como é que o senhor faz
 pra xavecar as menininhas
 
 165
-:639,405 --> 641,223
+:639,405 --> 11,223
 no ponto de ônibus, hein, Sr. Renato?&quot;
 
 166
-:641,223 --> 642,280
+:641,223 --> 11,280
 &quot;O quê?&quot;
 
 167
-:642,280 --> 644,141
+:642,280 --> 11,141
 &quot;Ah, Sr. Renato, o senhor nunca viu lá
 
 168
-:644,141 --> 646,281
+:644,141 --> 11,281
 uma moça bonitinha,
 ouvindo música no celular,
 
 169
-:646,281 --> 648,286
+:646,281 --> 11,286
 esperando o ônibus,
 chegou pra ela e falou:
 
 170
-:648,286 --> 655,652
+:648,286 --> 11,652
 &#39;Oiê... Tá ouvindo o quê?
 Me passa por Bluetooth?&#39;&quot;
 
 171
-:655,652 --> 657,628
+:655,652 --> 11,628
 Falei: &quot;Não, Zé, nunca fiz isso&quot;.
 
 172
-:657,218 --> 660,948
+:657,218 --> 11,948
 &quot;Olha, não sabe o que tá perdendo,
 viu, Sr. Renato?
 
 173
-:660,948 --> 662,908
+:660,948 --> 11,908
 Eu não queria dizer nada 
 para o senhor,
 
 174
-:662,908 --> 664,118
+:662,908 --> 11,118
 mas ainda bem que o senhor
 ganhou esse celular,
 
 175
-:664,118 --> 667,398
+:664,118 --> 11,398
 porque se o senhor tivesse pago,
 tinha sido um péssimo negócio.&quot;
 
 176
-:668,308 --> 670,828
+:668,308 --> 11,828
 E aí eu: &quot;Como assim, Zé?&quot;
 
 177
-:670,828 --> 671,083
+:670,828 --> 11,083
 Falou: &quot;Olha o meu, aqui&quot;.
 
 178
-:671,083 --> 674,362
+:671,083 --> 11,362
 Ele abriu a gaveta e levou o Hi Fone dele.
 
 179
-:674,362 --> 679,712
+:674,362 --> 11,712
 O Hi Fone do Zé tem
 câmera de 20 megapixels,
 
 180
-:680,672 --> 684,372
+:680,672 --> 11,372
 TV digital, um Bluetooth tão bom
 que transformou o Zé no rei da lotação.
 
 181
-:685,312 --> 689,016
+:685,312 --> 11,016
 E, pasmem, espaço pra quatro chips!
 
 182
-:690,116 --> 693,079
+:690,116 --> 12,079
 E aí quando ele falou isso,
 eu estava meio desconcertado,
 
 183
-:693,079 --> 695,149
+:693,079 --> 12,149
 e eu, na minha arrogância,
 
 184
-:696,329 --> 698,789
+:696,329 --> 12,789
 virei pra ele e falei:
 
 185
-:698,789 --> 702,122
+:698,789 --> 12,122
 &quot;Zé, quatro chips pra quê? Você tem
 quatro bocas pra falar, por acaso?&quot;
 
 186
-:702,122 --> 705,812
+:702,122 --> 12,812
 Daí ele olhou pra minha cara
 e falou o que talvez vá ser
 
 187
-:705,822 --> 707,327
+:705,822 --> 12,327
 uma das maiores lições
 profissionais da minha vida:
 
 188
-:707,327 --> 710,167
+:707,327 --> 12,167
 &quot;Sr. Renato, eu não sei
 o que o senhor faz, não,
 
 189
-:710,167 --> 713,537
+:710,167 --> 12,537
 como é que é seu trabalho,
 
 190
-:713,537 --> 716,191
+:713,537 --> 12,191
 mas o que eu sei mesmo é que o senhor
 não entende nada de pobre.
 
 191
-:718,821 --> 721,696
+:718,821 --> 12,696
 Porque se o senhor entendesse
 só um pouquinho de pobre,
 
 192
-:721,696 --> 725,776
+:721,696 --> 12,776
 o senhor ia saber que meu celular
 é pré-pago, como todo mundo lá do bairro.
 
 193
-:725,776 --> 729,402
+:725,776 --> 12,402
 E que o bônus do pré-pago só serve
 pra ligar de uma operadora pra outra&quot;.
 
 194
-:729,402 --> 733,325
+:729,402 --> 12,325
 E eu não tinha entendido, até ele
 me mostrar a agenda telefônica dele.
 
 195
-:733,325 --> 736,613
+:733,325 --> 12,613
 E na agenda telefônica do Zé,
 
 196
-:736,613 --> 740,443
+:736,613 --> 12,443
 o nome da operadora
 virou o sobrenome da pessoa:
 
 197
-:740,443 --> 742,694
+:740,443 --> 12,694
 José da Silva Oi;
 
 198
-:742,694 --> 743,969
+:742,694 --> 12,969
 Maria de Lurdes Tim;
 
 199
-:743,969 --> 745,172
+:743,969 --> 12,172
 Fulano de Tal Claro.
 
 200
-:745,172 --> 749,202
+:745,172 --> 12,202
 Pra saber que chip ele ia usar
 na hora de ligar.
 
 201
-:750,112 --> 753,005
+:750,112 --> 13,005
 E enquanto eu gastava
 uma fortuna de celular,
 
 202
-:753,005 --> 755,809
+:753,005 --> 13,809
 o Zé se virava...
 
 203
-:756,639 --> 758,414
+:756,639 --> 13,414
 Quem tem ponto de Wi-Fi aqui,
 dentro de casa?
 
 204
-:760,884 --> 762,734
+:760,884 --> 13,734
 Quase todo mundo.
 
 205
-:762,734 --> 763,319
+:762,734 --> 13,319
 Na Rocinha também.
 
 206
-:765,759 --> 768,945
+:765,759 --> 13,945
 Mas lá, eles rateiam o ponto de Wi-Fi,
 
 207
-:768,945 --> 771,437
+:768,945 --> 13,437
 como outros 12 milhões de brasileiros
 rateiam ponto do Wi-Fi.
 
 208
-:773,581 --> 776,540
+:773,581 --> 13,540
 Eles fazem uma vaquinha
 pra ratear o ponto de Wi-Fi,
 
 209
-:776,540 --> 779,640
+:776,540 --> 13,640
 e cada um só paga &quot;cincão&quot;.
 
 210
-:779,640 --> 781,603
+:779,640 --> 13,603
 Imagina chegar pro nosso vizinho e falar:
 
 211
-:781,603 --> 783,837
+:781,603 --> 13,837
 &quot;Aí, meu irmão! Vamos rachar
 o ponto de Wi-Fi?&quot;
 
 212
-:783,837 --> 784,181
+:783,837 --> 13,181
 Não dá...
 
 213
-:784,181 --> 789,366
+:784,181 --> 13,366
 Então vamos entender esse novo
 significado do jeitinho brasileiro.
 
 214
-:789,366 --> 791,193
+:789,366 --> 13,193
 Vamos entender também
 
 215
-:791,193 --> 796,763
+:791,193 --> 13,763
 que se tem uma coisa que mudou no Brasil
 
 216
-:796,763 --> 798,832
+:796,763 --> 13,832
 é o aumento de oportunidades,
 
 217
-:798,832 --> 800,472
+:798,832 --> 13,472
 o que empodera o cidadão
 
 218
-:800,472 --> 805,922
+:800,472 --> 13,922
 e dá uma liberdade
 de escolha maior pra ele.
 
 219
-:805,922 --> 810,061
+:805,922 --> 14,061
 Muda o sonho, muda a perspectiva,
 mas mudam os agentes disso.
 
 220
-:810,061 --> 814,515
+:810,061 --> 14,515
 Quem mudou o Brasil não foi a economia.
 
 221
-:814,515 --> 816,205
+:814,515 --> 14,205
 Quem mudou o Brasil foi a mulher.
 
 222
-:816,205 --> 819,319
+:816,205 --> 14,319
 Foi a mulher, que foi
 para o mercado de trabalho
 
 223
-:819,319 --> 823,187
+:819,319 --> 14,187
 muito mais do que o homem,
 50% a mais do que os homens.
 
 224
-:823,187 --> 825,381
+:823,187 --> 14,381
 A mulher foi para o mercado de trabalho,
 
 225
-:825,381 --> 829,871
+:825,381 --> 14,871
 mas o homem não foi fazer a sua parte
 na cozinha nem cuidando dos filhos.
 
 226
-:830,271 --> 836,591
+:830,271 --> 14,591
 O outro lado é que se a mulher, de alguma
 forma, determinava o dinheiro do homem,
 
 227
-:836,591 --> 839,279
+:836,591 --> 14,279
 ela passou a ganhar o próprio dinheiro.
 
 228
-:839,279 --> 841,456
+:839,279 --> 14,456
 Isso incomodou vários homens.
 
 229
-:841,456 --> 844,069
+:841,456 --> 14,069
 A gente fez uma pesquisa
 com os homens casados,
 
 230
-:844,069 --> 850,695
+:844,069 --> 14,695
 e, pra vocês terem uma ideia, mais 
 de 60% dos homens casados afirmaram
 
 231
-:850,695 --> 854,365
+:850,695 --> 14,365
 ter certeza que a esposa possui
 algum dinheiro guardado sem ele saber.
 
 232
-:856,355 --> 858,795
+:856,355 --> 14,795
 Os outros são iludidos.
 
 233
-:858,795 --> 859,332
+:858,795 --> 14,332
 (Risos)
 
 234
-:859,332 --> 865,223
+:859,332 --> 14,223
 Também mais de 60% disseram
 preferir mudar de opinião
 
 235
-:865,223 --> 867,151
+:865,223 --> 14,151
 pra não ter que brigar com a patroa.
 
 236
-:867,151 --> 869,867
+:867,151 --> 14,867
 É aquela história, quando você casa,
 
 237
-:869,867 --> 871,367
+:869,867 --> 15,367
 você tem que decidir
 entre ser feliz ou ter razão.
 
 238
-:871,367 --> 873,997
+:871,367 --> 15,997
 (Risos)
 
 239
-:874,787 --> 879,452
+:874,787 --> 15,452
 Mas o que mais estava incomodando
 os homens eram as escolhas da mulher
 
 240
-:879,452 --> 883,742
+:879,452 --> 15,742
 para o consumo, mesmo para o dele.
 
 241
-:883,742 --> 889,482
+:883,742 --> 15,482
 Então a gente descobriu
 que 53% dos homens casados
 
 242
-:889,482 --> 893,222
+:889,482 --> 15,222
 afirmaram que foi a mulher que escolheu
 a compra do computador da família.
 
 243
-:893,222 --> 897,670
+:893,222 --> 15,670
 Eu não acreditei e fui visitar
 uma casa, um casal,
 
 244
-:897,670 --> 901,530
+:897,670 --> 15,530
 e perguntei pra eles quem tinha
 comprado o computador.
 
 245
-:901,530 --> 903,293
+:901,530 --> 15,293
 Nem terminei de falar,
 a mulher falou: &quot;Meu marido, claro!&quot;
 
 246
-:903,293 --> 904,393
+:903,293 --> 15,393
 &quot;Por que o seu marido?&quot;
 
 247
-:904,393 --> 908,895
+:904,393 --> 15,895
 &quot;Porque ele entende muito mais
 de tecnologia do que eu.&quot;
 
 248
-:908,895 --> 911,081
+:908,895 --> 15,081
 Falei: &quot;Que bacana. E é legal
 o computador que seu marido escolheu?&quot;
 
 249
-:911,081 --> 914,941
+:911,081 --> 15,941
 &quot;É maravilhoso, tem Intel Core 2 Duo,
 4 GB de memória, Wi-Fi,
 
 250
-:914,941 --> 916,561
+:914,941 --> 15,561
 Bluetooth, webcam integrada.&quot;
 
 251
-:916,561 --> 918,081
+:916,561 --> 15,081
 &quot;Pra quem não entende nada,
 você entende alguma coisa.
 
 252
-:918,081 --> 921,925
+:918,081 --> 15,925
 Posso dar uma olhada no computador
 que seu marido escolheu?&quot;
 
 253
-:921,925 --> 923,892
+:921,925 --> 15,892
 &quot;Claro! Pega lá pra mostrar para o moço.&quot;
 
 254
-:923,892 --> 927,278
+:923,892 --> 15,278
 E apareceu este sujeito,
 segurando o notebook... rosa!
 
 255
-:927,278 --> 930,100
+:927,278 --> 16,100
 Que, segundo ela, quem escolheu foi ele.
 
 256
-:932,190 --> 934,791
+:932,190 --> 16,791
 Que bom!
 
 257
-:935,101 --> 937,411
+:935,101 --> 16,411
 Mas eu queria terminar,
 
 258
-:939,851 --> 941,291
+:939,851 --> 16,291
 pra que a gente não esqueça
 
 259
-:943,731 --> 944,478
+:943,731 --> 16,478
 que junto com todas essas mudanças
 
 260
-:944,478 --> 949,696
+:944,478 --> 16,696
 teve um conjunto de &quot;primeira vez&quot;
 na vida dessas pessoas.
 
 261
-:950,506 --> 952,254
+:950,506 --> 16,254
 E a primeira vez é complicada.
 
 262
-:952,254 --> 955,123
+:952,254 --> 16,123
 É o primeiro beijo,
 
 263
-:955,123 --> 958,553
+:955,123 --> 16,553
 a primeira vez que você anda de bicicleta,
 
 264
-:958,553 --> 960,103
+:958,553 --> 16,103
 imagina a primeira vez
 que você anda de avião.
 
 265
-:961,098 --> 966,406
+:961,098 --> 16,406
 No ano passado 8 milhões de pessoas
 andaram de avião pela primeira vez.
 
 266
-:968,646 --> 972,221
+:968,646 --> 16,221
 E a gente acompanhou uma dessas famílias,
 que foi fazer uma viagem para o Nordeste.
 
 267
-:972,221 --> 974,771
+:972,221 --> 16,771
 Chegou no Nordeste,
 
 268
-:974,771 --> 977,251
+:974,771 --> 16,251
 foi para o hotel, e no dia seguinte
 eles iam fazer o tal do &quot;city-tour&quot;,
 
 269
-:977,251 --> 980,852
+:977,251 --> 16,852
 que estava marcado
 pras oito horas da manhã.
 
 270
-:980,852 --> 982,821
+:980,852 --> 16,821
 Às oito horas da manhã
 
 271
-:982,821 --> 984,679
+:982,821 --> 16,679
 eles não chegaram, o ônibus foi embora,
 
 272
-:984,679 --> 987,834
+:984,679 --> 16,834
 o nosso pesquisador ficou esperando
 e perguntou: &quot;O que aconteceu?&quot;
 
 273
-:987,834 --> 992,540
+:987,834 --> 17,540
 &quot;Sabe moço? Eu nunca fui
 tão bem tratada na minha vida.
 
 274
-:992,540 --> 994,760
+:992,540 --> 17,760
 A gente chegou no quarto do hotel
 
 275
-:994,760 --> 998,380
+:994,760 --> 17,380
 e tinha uma geladeira cheia de comida
 e bebida pra gente, tudo de graça.
 
 276
-:998,380 --> 1002,800
+:998,380 --> 17,800
 Ficamos vendo televisão até tarde
 e perdemos a hora, mas ia dar tempo.
 
 277
-:1002,800 --> 1005,282
+:1002,800 --> 17,282
 Acontece que quando eu e meu esposo
 estávamos saindo do quarto,
 
 278
-:1005,282 --> 1007,192
+:1005,282 --> 17,192
 meu esposo foi colocar a mão na maçaneta
 
 279
-:1007,192 --> 1010,972
+:1007,192 --> 17,972
 e viu uma plaquinha escrita:
 &#39;Por favor, arrume o quarto&#39;.
 
 280
-:1010,972 --> 1015,849
+:1010,972 --> 17,849
 E o quarto estava uma zona,
 tivemos que voltar pra arrumar o quarto.&quot;
 
 281
-:1016,093 --> 1022,357
+:1016,093 --> 17,357
 Então, e eu queria terminar
 com isso, isso mostra
 
 282
-:1022,357 --> 1027,374
+:1022,357 --> 17,374
 a diferença que ainda existe no Brasil,
 
 283
-:1027,374 --> 1029,084
+:1027,374 --> 17,084
 de repertório.
 
 284
-:1031,014 --> 1036,403
+:1031,014 --> 17,403
 E essa diferença, que eu contei aqui
 com exemplo que saiu na nossa pesquisa,
 
 285
-:1036,403 --> 1042,081
+:1036,403 --> 17,081
 faz com que os brasileiros
 
 286
-:1042,081 --> 1046,611
+:1042,081 --> 17,611
 não tenham, na prática,
 
 287
-:1046,611 --> 1049,284
+:1046,611 --> 17,284
 as mesmas condições de melhorarem de vida.
 
 288
-:1049,284 --> 1055,600
+:1049,284 --> 18,600
 Se criou um mantra nos últimos anos,
 que é o tal do mantra da meritocracia.
 
 289
-:1055,600 --> 1057,441
+:1055,600 --> 18,441
 O que as pessoas esquecem de dizer,
 
 290
-:1057,441 --> 1063,181
+:1057,441 --> 18,181
 é que não tem mérito nenhum
 em sair 50 metros na frente.
 
 291
-:1063,181 --> 1069,674
+:1063,181 --> 18,674
 Não existe meritocracia
 sem igualdade de oportunidade.
 
 292
-:1070,774 --> 1075,443
+:1070,774 --> 18,443
 Não existe meritocracia quando,
 na infância, alguém come bem
 
 293
-:1075,443 --> 1079,603
+:1075,443 --> 18,603
 e o outro tem que sair na rua
 
 294
-:1079,603 --> 1083,863
+:1079,603 --> 18,863
 pra pedir esmola e ajudar
 a colocar dinheiro dentro de casa.
 
 295
-:1083,863 --> 1086,886
+:1083,863 --> 18,886
 Se a gente entender isso,
 
 296
-:1086,886 --> 1090,206
+:1086,886 --> 18,206
 a gente consegue, de verdade,
 transformar o Brasil.
 
 297
-:1090,206 --> 1094,941
+:1090,206 --> 18,941
 E, de verdade, ninguém transforma ninguém.
 
 298
-:1094,941 --> 1097,065
+:1094,941 --> 18,065
 Ninguém se transforma sozinho.
 
 299
-:1097,065 --> 1102,351
+:1097,065 --> 18,351
 O mundo, o Brasil e nós,
 nos transformamos em comunhão.
 
 300
-:1102,351 --> 1103,480
+:1102,351 --> 18,480
 Muito obrigado.
 
 301
-:1103,480 --> 1106,816
+:1103,480 --> 18,816
 (Aplausos)
 
 302
-:1106,816 --> 1107,671
+:1106,816 --> 18,671
 Obrigado.
 
 303
-:1107,671 --> 1109,171
+:1107,671 --> 18,171
 (Aplausos)
 
