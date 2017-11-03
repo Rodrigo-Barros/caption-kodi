@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*
 #url Base para legendas http://video.google.com/timedtext?lang={LANG}&v={VIDEOID}
 #Base url to subtitles http://video.google.com/timedtext?lang={LANG}&v={VIDEOID}
 
@@ -23,7 +23,7 @@ sr          Serbian \n
 '''
 
 lang = raw_input("selecione um idioma para as legendas:")
-videoID = 'hlovDI8K8Ec'
+videoID = '28sa2zGgmwE'
 
 req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
 response = urllib2.urlopen(req)
