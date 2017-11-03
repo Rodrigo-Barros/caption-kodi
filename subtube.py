@@ -51,6 +51,7 @@ for tempo in range(len(a)):
 	start_mili=str(start_mili).replace("0.","")
 	end_mili=round(end-int(end),3)
 	end_mili=str(end_mili).replace("0.","")
+	
 	#milliseconds
 	if(len(start_mili)==2):
 		start_mili=start_mili+'0'
@@ -62,39 +63,28 @@ for tempo in range(len(a)):
 	elif(len(end_mili)==1):
 		end_mili=end_mili+'00'
 
-	if(end>60):
-		end = end/60
-		end_sec = end - int(end)
-		end_sec = str(end_sec)
-		if(len(end_sec)<=4):
-			end_sec = str(end).replace(".",",")
-			print(end)
-		else:
-			end_sec = round(end,3)
-			print ("%.3f" % end_sec)
-	elif (end/60<1):
-		end_sec = str(end).replace(".",",")
-		print(end_sec)
-	#minutes start
-	if(start/60>1):
-		minutos=start/60
-		segundos = (minutos - int(minutos))*60
-		if(segundos<10):
-			segundos=str(segundos)
-			segundos="0"+segundos
-		if(minutos<10):
-			minutos=str(minutos)
-			minutos="0"+minutos
-		#print ('%.2s:%.2s,%s --> %s'% (minutos,segundos,start_mili))
-		#seconds
-	elif(start/60<1):
+	
+	if(start<60 and end<60):
 		if(start<10):
-			start=str(start)
+			start=str(int(start))
 			start="0"+start
-		#print ('00:%.2s,%s' % (start,start_mili))
-		start=float(start)
+		if(end<10):
+			end=str(int(end))
+			end="0"+end
+		print ("start: 00:00:%.2s,%s --> end: 00:00:%.2s,%s" %(start,start_mili,end,int(end_mili)))
+	elif(start>60 and end>60):
+		#minutes and seconds
+		if(start%60 >= 1):
+			start_min = (start/60)
+			start_sec = ((start/60) - int(start_min))*60
+		if(end%60 >= 1):
+			start_min = (start/60)
+			start_sec = ((start/60) - int(start_min))*60
+		#print ("start: 00:%.0f:%.0f,%s" %(start_min,start_sec,start_mili))
+		print ("start: 00:%.0f:%.0f,%s" %(start_min,start_sec,start_mili))
 
-	subFile.write('''%i\n:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,end,end_mili,legenda.encode('utf-8')))
-	index+=1
 
-subFile.close()
+# 	subFile.write('''%i\n:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,float(end),end_mili,legenda.encode('utf-8')))
+# 	index+=1
+
+# subFile.close()
