@@ -7,6 +7,7 @@ import urllib2
 import xml.etree.ElementTree as ET
 import json
 from datetime import time
+import sys
 # import xbmcaddon
 # import xbmcgui
 
@@ -35,34 +36,45 @@ from datetime import time
 # sr          Serbian \n
 # '''
 
-# lang = raw_input("selecione um idioma para as legendas:")
 videoID = '28sa2zGgmwE'
 
-# req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
-# response = urllib2.urlopen(req)
-# the_page = response.read()
-# print the_page
-# file=open("sub.xml","w+")
-# file.write(the_page)
-# file.close()
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
 response = urllib2.urlopen(req)
 sub_list = response.read()
 
-
-lang_chose="pt-br"
 b=[]
 list_root = ET.fromstring(sub_list)
 for list_child in list_root:
 	b.append(list_child.attrib)
 
+code=[]
 for list_code in range(len(b)):
-	code = b[list_code]["lang_code"]
-	if(code=="pt-br"):
-		print "code: ",code
+	code.append(b[list_code]["lang_code"])
+print "idiomas disponíveis:"
+for p in code: print p+"\n"
 
+lang = raw_input("selecione um idioma para as legendas:")
+
+req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
+response = urllib2.urlopen(req)
+the_page = response.read()
+file=open("sub.xml","w+")
+file.write(the_page)
+file.close()
+
+status=False
+for list_check in range(len(code)):
+	if(code[list_check]==lang):
+		status=True
+		print "Idioma",code[list_check],"Selecionado"
+		break
+	elif(code[list_check]!=lang):
+		continue
 #------------------------importacao das legendas em xml-----------------------------------------
+
+if(status!=True):
+	exit()
 a=[]
 tree = ET.parse('sub.xml')
 root = tree.getroot()
