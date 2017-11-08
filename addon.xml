@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.video.subtitle" name="Subtube" version="0.0.9" provider-name="zag">
+	<extension point="xbmc.addon.metadata">	
+		<platform>all</platform>
+		<summary lang="pt">Este complemento visa buscar e baixar legendas do youtube</summary>
+		<description>OBS: quando disponível, quando as legendas são geradas automaticamente não podemos garantir que irá funcionar</description>
+	  </extension>
+</addon>

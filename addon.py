@@ -7,6 +7,7 @@ import urllib2
 import xml.etree.ElementTree as ET
 import json
 from datetime import time
+import xbmc
 
 print '''
 Os códigos de idiomas são: \n 
