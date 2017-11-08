@@ -7,32 +7,60 @@ import urllib2
 import xml.etree.ElementTree as ET
 import json
 from datetime import time
-import xbmc
+# import xbmcaddon
+# import xbmcgui
 
-print '''
-Os códigos de idiomas são: \n 
-pt-BR       Portuguese (Brazil) \n 
-pt-PT       Portuguese (Portugal) \n
-pa          Punjabi \n
-qu          Quechua \n
-ro          Romanian \n
-rm          Romansh \n
-nyn         Runyakitara \n
-ru          Russian \n
-gd          Scots Gaelic \n
-sr          Serbian \n
-'''
+# addon = xbmcaddon.Addon()
+# addonname = addon.getAddonInfo('name')
 
-lang = raw_input("selecione um idioma para as legendas:")
+# xbmcgui.Dialog().ok(addonname)
+
+#http://kodi.wiki/view/HOW-TO:Add_a_new_window_or_dialog_via_skinning referencia para popups
+
+# evento para ativar a busca de legendas ActivateWindow(subtitlesearch)
+
+# lista as lengendas disponiveis no video http://video.google.com/timedtext?type=list&v=zzfCVBSsvqA
+
+# print '''
+# Os códigos de idiomas são: \n 
+# pt-BR       Portuguese (Brazil) \n 
+# pt-PT       Portuguese (Portugal) \n
+# pa          Punjabi \n
+# qu          Quechua \n
+# ro          Romanian \n
+# rm          Romansh \n
+# nyn         Runyakitara \n
+# ru          Russian \n
+# gd          Scots Gaelic \n
+# sr          Serbian \n
+# '''
+
+# lang = raw_input("selecione um idioma para as legendas:")
 videoID = '28sa2zGgmwE'
 
-req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
+# req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
+# response = urllib2.urlopen(req)
+# the_page = response.read()
+# print the_page
+# file=open("sub.xml","w+")
+# file.write(the_page)
+# file.close()
+
+req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
 response = urllib2.urlopen(req)
-the_page = response.read()
-print the_page
-file=open("sub.xml","w+")
-file.write(the_page)
-file.close()
+sub_list = response.read()
+
+
+lang_chose="pt-br"
+b=[]
+list_root = ET.fromstring(sub_list)
+for list_child in list_root:
+	b.append(list_child.attrib)
+
+for list_code in range(len(b)):
+	code = b[list_code]["lang_code"]
+	if(code=="pt-br"):
+		print "code: ",code
 
 #------------------------importacao das legendas em xml-----------------------------------------
 a=[]
@@ -73,7 +101,7 @@ for tempo in range(len(a)):
 		if(end<10):
 			end=str(int(end))
 			end="0"+end
-		print ("start: 00:00:%.2s,%s --> 00:00:%.2s,%s" %(start,start_mili,end,int(end_mili)))
+		print ("00:00:%.2s,%s --> 00:00:%.2s,%s" %(start,start_mili,end,int(end_mili)))
 		subFile.write('''%i\n00:00:%.2s,%s --> 00:00:%.2s,%s\n%s\n\n''' % (index,start,start_mili,end,int(end_mili),legenda.encode('utf-8')))
 	elif(start>60 and end>60):
 		#minutes and seconds
