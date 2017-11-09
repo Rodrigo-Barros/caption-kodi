@@ -9,9 +9,6 @@ import json
 from datetime import time
 import os
 
-import xbmcgui
-import xbmc
-
 #http://kodi.wiki/view/HOW-TO:Add_a_new_window_or_dialog_via_skinning referencia para popups
 
 # evento para ativar a busca de legendas ActivateWindow(subtitlesearch)
@@ -52,13 +49,13 @@ print "idiomas disponíveis:"
 for p in code: print p+"\n"
 
 
-dialog = xbmcgui.Dialog()
-lista = dialog.select('Escolha um idioma', code)
-entrada=code[lista]
-if(entrada == code[lista]):
-	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s" % (entrada,sub_path,subtitle))
-else:
-	dialog.textviewer('Plot', "Idioma não encontrado")
+# dialog = xbmcgui.Dialog()
+# lista = dialog.select('Escolha um idioma', code)
+# entrada=code[lista]
+# if(entrada == code[lista]):
+# 	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s" % (entrada,sub_path,subtitle))
+# else:
+# 	dialog.textviewer('Plot', "Idioma não encontrado")
 
 lang = raw_input("selecione um idioma para as legendas:")
 
