@@ -48,21 +48,14 @@ for list_child in list_root:
 code=[]
 for list_code in range(len(b)):
 	code.append(b[list_code]["lang_code"])
-print "idiomas disponíveis:"
-for p in code: print p+"\n"
 
 dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
-if(entrada == code[lista]):
-	dialog.textviewer('Plot', '\nbuscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s' % 
-		(entrada,sub_path,subtitle))
-	xbmc.Player().setSubtitles(subtitle)
-	xbmc.Player().showSubtitles(True)
-else:
-	dialog.textviewer('Plot', "Idioma não encontrado")
 
-# lang = raw_input("selecione um idioma para as legendas:")
+# escrita das legendas
+
+#---------------------------------XML--------------------------------------------------------
 
 req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(entrada,videoID))
 response = urllib2.urlopen(req)
@@ -70,10 +63,9 @@ the_page = response.read()
 file=open("%s/sub.xml" % sub_path,"w+")
 file.write(the_page)
 file.close()
-#------------------------importacao das legendas em xml-----------------------------------------
 
-# if(status!=True):
-# 	exit()
+#-----------------------------------------------------------------------------------------
+
 a=[]
 tree = ET.parse('%s/sub.xml' % sub_path)
 root = tree.getroot()
@@ -142,3 +134,22 @@ for tempo in range(len(a)):
  	index+=1
 
 subFile.close()
+
+# fim da escrita das legendas
+
+
+
+if(entrada == code[lista]):
+	dialog.textviewer('Plot', '\nbuscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s' % 
+		(entrada,sub_path,subtitle))
+	xbmc.Player().setSubtitles(subtitle)
+	xbmc.Player().showSubtitles(True)
+else:
+	dialog.textviewer('Plot', "Idioma não encontrado")
+
+# lang = raw_input("selecione um idioma para as legendas:")
+
+#------------------------importacao das legendas em xml-----------------------------------------
+
+# if(status!=True):
+# 	exit()
