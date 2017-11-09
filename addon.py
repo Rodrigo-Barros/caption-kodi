@@ -51,12 +51,14 @@ for list_code in range(len(b)):
 print "idiomas disponíveis:"
 for p in code: print p+"\n"
 
+window=xbmcgui.getCurrentWindowId()
 
 dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
 if(entrada == code[lista]):
-	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s" % (entrada,sub_path,subtitle))
+	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s largura: %s" % (entrada,sub_path,subtitle,window))
+	
 else:
 	dialog.textviewer('Plot', "Idioma não encontrado")
 
