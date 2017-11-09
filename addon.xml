@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.video.subtitle" name="Subtube" version="0.0.9" provider-name="zag">
-	<extension point="xbmc.addon.metadata">	
+<addon id="script.video.subtube" name="Subtube" version="1.0.1" provider-name="Rodrigo">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="pt">Este complemento visa buscar e baixar legendas do youtube</summary>
-		<description>OBS: quando disponível, quando as legendas são geradas automaticamente não podemos garantir que irá funcionar</description>
-	  </extension>
+		<summary lang="pt">Este programa visa baixar as legendas dos videos do youtbe</summary>
+		<description lang="pt">Example Script to show hello world</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+	</extension>
 </addon>
