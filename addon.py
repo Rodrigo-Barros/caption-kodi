@@ -51,21 +51,20 @@ for list_code in range(len(b)):
 print "idiomas disponíveis:"
 for p in code: print p+"\n"
 
-window=xbmcgui.getCurrentWindowId()
-
 dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
 if(entrada == code[lista]):
-	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s largura: %s" % (entrada,sub_path,subtitle,window))
+	dialog.textviewer('Plot', '\nbuscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s' % 
+		(entrada,sub_path,subtitle))
 	xbmc.Player().setSubtitles(subtitle)
 	xbmc.Player().showSubtitles(True)
 else:
 	dialog.textviewer('Plot', "Idioma não encontrado")
 
-lang = raw_input("selecione um idioma para as legendas:")
+# lang = raw_input("selecione um idioma para as legendas:")
 
-req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
+req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(entrada,videoID))
 response = urllib2.urlopen(req)
 the_page = response.read()
 file=open("sub.xml","w+")
@@ -74,16 +73,16 @@ file.close()
 
 status=False
 for list_check in range(len(code)):
-	if(code[list_check]==lang):
+	if(code[list_check]==entrada):
 		status=True
 		print "Idioma",code[list_check],"Selecionado"
 		break
-	elif(code[list_check]!=lang):
+	elif(code[list_check]!=entrada):
 		continue
 #------------------------importacao das legendas em xml-----------------------------------------
 
-if(status!=True):
-	exit()
+# if(status!=True):
+# 	exit()
 a=[]
 tree = ET.parse('sub.xml')
 root = tree.getroot()
