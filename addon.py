@@ -8,13 +8,9 @@ import xml.etree.ElementTree as ET
 import json
 from datetime import time
 import os
-# import xbmcaddon
+
 import xbmcgui
-
-# addon = xbmcaddon.Addon()
-# addonname = addon.getAddonInfo('name')
-
-# xbmcgui.Dialog().ok(addonname)
+import xbmc
 
 #http://kodi.wiki/view/HOW-TO:Add_a_new_window_or_dialog_via_skinning referencia para popups
 
@@ -35,9 +31,10 @@ import xbmcgui
 # gd          Scots Gaelic \n
 # sr          Serbian \n
 # '''
+
 sub_path = os.path.dirname(os.path.abspath(__file__))
 videoID = 'XdMCyi_Avzc'
-
+subtitle = sub_path+"/subtitle.srt"
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
 response = urllib2.urlopen(req)
@@ -59,7 +56,7 @@ dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
 if(entrada == code[lista]):
-	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s/subtitle.srt" % (entrada,sub_path,sub_path))
+	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s" % (entrada,sub_path,subtitle))
 else:
 	dialog.textviewer('Plot', "Idioma não encontrado")
 
