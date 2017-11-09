@@ -67,30 +67,21 @@ else:
 req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(entrada,videoID))
 response = urllib2.urlopen(req)
 the_page = response.read()
-file=open("sub.xml","w+")
+file=open("%s/sub.xml" % sub_path,"w+")
 file.write(the_page)
 file.close()
-
-status=False
-for list_check in range(len(code)):
-	if(code[list_check]==entrada):
-		status=True
-		print "Idioma",code[list_check],"Selecionado"
-		break
-	elif(code[list_check]!=entrada):
-		continue
 #------------------------importacao das legendas em xml-----------------------------------------
 
 # if(status!=True):
 # 	exit()
 a=[]
-tree = ET.parse('sub.xml')
+tree = ET.parse('%s/sub.xml' % sub_path)
 root = tree.getroot()
 for child in root:
 	a.append(child.attrib)
 
 index = 1
-subFile = open("subtitle.srt","w+")
+subFile = open("%s/subtitle.srt" % sub_path,"w+")
 for tempo in range(len(a)):
 	#print (a[tempo]["dur"])
 	legenda = root[tempo].text
