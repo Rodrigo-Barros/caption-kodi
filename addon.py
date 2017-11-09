@@ -58,7 +58,8 @@ lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
 if(entrada == code[lista]):
 	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s largura: %s" % (entrada,sub_path,subtitle,window))
-	
+	xbmc.Player().setSubtitles(subtitle)
+	xbmc.Player().showSubtitles(True)
 else:
 	dialog.textviewer('Plot', "Idioma não encontrado")
 
