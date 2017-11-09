@@ -7,9 +7,9 @@ import urllib2
 import xml.etree.ElementTree as ET
 import json
 from datetime import time
-import sys
+import os
 # import xbmcaddon
-# import xbmcgui
+import xbmcgui
 
 # addon = xbmcaddon.Addon()
 # addonname = addon.getAddonInfo('name')
@@ -35,7 +35,7 @@ import sys
 # gd          Scots Gaelic \n
 # sr          Serbian \n
 # '''
-
+sub_path = os.path.dirname(os.path.abspath(__file__))
 videoID = 'XdMCyi_Avzc'
 
 
@@ -53,6 +53,15 @@ for list_code in range(len(b)):
 	code.append(b[list_code]["lang_code"])
 print "idiomas disponíveis:"
 for p in code: print p+"\n"
+
+
+dialog = xbmcgui.Dialog()
+lista = dialog.select('Escolha um idioma', code)
+entrada=code[lista]
+if(entrada == code[lista]):
+	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s/subtitle.srt" % (entrada,sub_path,sub_path))
+else:
+	dialog.textviewer('Plot', "Idioma não encontrado")
 
 lang = raw_input("selecione um idioma para as legendas:")
 
@@ -94,6 +103,7 @@ for tempo in range(len(a)):
 	end_mili=str(end_mili).replace("0.","")
 	
 	#milliseconds
+	# if(len(start_mili)==input):
 	if(len(start_mili)==2):
 		start_mili=start_mili+'0'
 	elif(len(start_mili)==1):
