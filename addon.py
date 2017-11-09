@@ -15,19 +15,6 @@ import os
 
 # lista as lengendas disponiveis no video http://video.google.com/timedtext?type=list&v=zzfCVBSsvqA
 
-# print '''
-# Os códigos de idiomas são: \n 
-# pt-BR       Portuguese (Brazil) \n 
-# pt-PT       Portuguese (Portugal) \n
-# pa          Punjabi \n
-# qu          Quechua \n
-# ro          Romanian \n
-# rm          Romansh \n
-# nyn         Runyakitara \n
-# ru          Russian \n
-# gd          Scots Gaelic \n
-# sr          Serbian \n
-# '''
 
 sub_path = os.path.dirname(os.path.abspath(__file__))
 videoID = 'XdMCyi_Avzc'
@@ -48,15 +35,6 @@ for list_code in range(len(b)):
 print "idiomas disponíveis:"
 for p in code: print p+"\n"
 
-
-# dialog = xbmcgui.Dialog()
-# lista = dialog.select('Escolha um idioma', code)
-# entrada=code[lista]
-# if(entrada == code[lista]):
-# 	dialog.textviewer('Plot', "buscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s" % (entrada,sub_path,subtitle))
-# else:
-# 	dialog.textviewer('Plot', "Idioma não encontrado")
-
 lang = raw_input("selecione um idioma para as legendas:")
 
 req = urllib2.Request('http://video.google.com/timedtext?lang=%s&v=%s' %(lang,videoID))
@@ -66,18 +44,8 @@ file=open("sub.xml","w+")
 file.write(the_page)
 file.close()
 
-status=False
-for list_check in range(len(code)):
-	if(code[list_check]==lang):
-		status=True
-		print "Idioma",code[list_check],"Selecionado"
-		break
-	elif(code[list_check]!=lang):
-		continue
 #------------------------importacao das legendas em xml-----------------------------------------
 
-if(status!=True):
-	exit()
 a=[]
 tree = ET.parse('sub.xml')
 root = tree.getroot()
