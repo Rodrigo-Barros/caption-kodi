@@ -18,20 +18,6 @@ import xbmc
 
 # lista as lengendas disponiveis no video http://video.google.com/timedtext?type=list&v=zzfCVBSsvqA
 
-# print '''
-# Os códigos de idiomas são: \n 
-# pt-BR       Portuguese (Brazil) \n 
-# pt-PT       Portuguese (Portugal) \n
-# pa          Punjabi \n
-# qu          Quechua \n
-# ro          Romanian \n
-# rm          Romansh \n
-# nyn         Runyakitara \n
-# ru          Russian \n
-# gd          Scots Gaelic \n
-# sr          Serbian \n
-# '''
-
 sub_path = os.path.dirname(os.path.abspath(__file__))
 videoID = 'XdMCyi_Avzc'
 subtitle = sub_path+"/subtitle.srt"
@@ -127,10 +113,8 @@ for tempo in range(len(a)):
 			if(end_min<10):
 				end_min=str(end_min)
 				end_min="0"+end_min
-		#print ("end: 00:%.2s:%.2s,%s" %(end_min,end_sec,end_mili))
 		print ("00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s" %(start_min,start_sec,start_mili,end_min,end_sec,end_mili))
 		subFile.write('''%i\n00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s \n%s\n\n''' % (index,start_min,start_sec,start_mili,end_min,end_sec,end_mili,legenda.encode('utf-8')))
- 	#subFile.write('''%i\n:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,float(end),end_mili,legenda.encode('utf-8')))
  	index+=1
 
 subFile.close()
@@ -146,10 +130,3 @@ if(entrada == code[lista]):
 	xbmc.Player().showSubtitles(True)
 else:
 	dialog.textviewer('Plot', "Idioma não encontrado")
-
-# lang = raw_input("selecione um idioma para as legendas:")
-
-#------------------------importacao das legendas em xml-----------------------------------------
-
-# if(status!=True):
-# 	exit()
