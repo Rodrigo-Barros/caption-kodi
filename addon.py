@@ -39,6 +39,8 @@ dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
 
+Lang_Code=[]
+for
 # escrita das legendas
 
 #---------------------------------XML--------------------------------------------------------
