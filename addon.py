@@ -17,7 +17,11 @@ import os
 
 
 sub_path = os.path.dirname(os.path.abspath(__file__))
-videoID = 'XdMCyi_Avzc'
+
+file_video_id = open("%s/video_id.txt" % sub_path,"r")
+videoID = file_video_id.read()
+file_video_id.close()
+
 subtitle = sub_path+"/subtitle.srt"
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
@@ -35,7 +39,7 @@ for list_code in range(len(b)):
 	code.append(b[list_code]["lang_code"])
 	sub_lang.append(b[list_code]["lang_translated"])
 
-sub_language=sub_lang[24]
+sub_language=sub_lang[list_code]
 print "idiomas disponíveis:"
 for p in sub_lang: print p
 
@@ -102,7 +106,7 @@ for tempo in range(len(a)):
 			if(start_min<10):
 				start_min=str(start_min)
 				start_min="0"+start_min
-		if(end%60 >= 1):
+		if(end/60 >= 1):
 			end_min = (end/60)
 			end_sec = ((end/60) - int(end_min))*60
 			if(end_sec<10):
@@ -111,9 +115,9 @@ for tempo in range(len(a)):
 			if(end_min<10):
 				end_min=str(end_min)
 				end_min="0"+end_min
-		#print ("end: 00:%.2s:%.2s,%s" %(end_min,end_sec,end_mili))
+		#print ("00:%.2s:%.2s,%s" %(end_min,end_sec,end_mili))
 		print ("00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s" %(start_min,start_sec,start_mili,end_min,end_sec,end_mili))
-		subFile.write('''%i\n00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s \n%s\n\n''' % (index,start_min,start_sec,start_mili,end_min,end_sec,end_mili,legenda.encode('utf-8')))
+		#subFile.write('''%i\n00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s \n%s\n\n''' % (index,start_min,start_sec,start_mili,end_min,end_sec,end_mili,legenda.encode('utf-8')))
  	#subFile.write('''%i\n:%.0f,%s --> %.0f,%s\n%s\n\n''' % (index, start,start_mili,float(end),end_mili,legenda.encode('utf-8')))
  	index+=1
 
