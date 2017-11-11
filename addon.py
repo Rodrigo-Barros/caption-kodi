@@ -126,7 +126,7 @@ for tempo in range(len(a)):
 			if(start_min<10):
 				start_min=str(start_min)
 				start_min="0"+start_min
-		if(end%60 >= 1):
+		if(end/60 >= 1):
 			end_min = (end/60)
 			end_sec = ((end/60) - int(end_min))*60
 			if(end_sec<10):
