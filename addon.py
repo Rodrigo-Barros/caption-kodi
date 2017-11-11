@@ -31,8 +31,11 @@ for item in test:
         os.remove( os.path.join( directory, item ) )
 
 #------------------------ apagar as legendas para não ficar muitas na mesma pasta--------------------------------------
+file_video_id = open("%s/video_id.txt" % sub_path,"r")
+videoID = file_video_id.read()
+file_video_id.close()
 
-videoID = 'XdMCyi_Avzc'
+# videoID = 'XdMCyi_Avzc'
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
 response = urllib2.urlopen(req)
@@ -50,11 +53,14 @@ for list_code in range(len(b)):
 	sub_lang.append(b[list_code]["lang_translated"])
 
 dialog = xbmcgui.Dialog()
-lista = dialog.select('Escolha um idioma', code)
-entrada=code[lista]
-sub_lang=sub_lang[lista]
-
-subtitle = "%s/%s.srt" % (sub_path,sub_lang)
+if (len(code)>0):
+	lista = dialog.select('Escolha um idioma', code)
+	entrada=code[lista]
+	sub_lang=sub_lang[lista]
+	subtitle = "%s/%s.srt" % (sub_path,sub_lang)
+else:
+	dialog.textviewer('Info', '\n O video não possui legendas para exibir' )
+	exit()
 # escrita das legendas
 
 #---------------------------------XML--------------------------------------------------------
@@ -131,6 +137,7 @@ for tempo in range(len(a)):
 				end_min="0"+end_min
 		print ("00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s" %(start_min,start_sec,start_mili,end_min,end_sec,end_mili))
 		subFile.write('''%i\n00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s \n%s\n\n''' % (index,start_min,start_sec,start_mili,end_min,end_sec,end_mili,legenda.encode('utf-8')))
+		# subFile.write('''%i\n00:%.2s:%.2s,%s --> 00:%.2s:%.2s,%s \n%s\n\n''' % (index,start_min,start_sec,start_mili,end_min,end_sec,end_mili,legenda.encode('utf-8')))
  	index+=1
 
 subFile.close()
