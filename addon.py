@@ -29,11 +29,15 @@ list_root = ET.fromstring(sub_list)
 for list_child in list_root:
 	b.append(list_child.attrib)
 
+sub_lang=[]
 code=[]
 for list_code in range(len(b)):
 	code.append(b[list_code]["lang_code"])
+	sub_lang.append(b[list_code]["lang_translated"])
+
+sub_language=sub_lang[24]
 print "idiomas disponíveis:"
-for p in code: print p+"\n"
+for p in sub_lang: print p
 
 lang = raw_input("selecione um idioma para as legendas:")
 
@@ -53,7 +57,7 @@ for child in root:
 	a.append(child.attrib)
 
 index = 1
-subFile = open("subtitle.srt","w+")
+subFile = open("%s.srt" % sub_language,"w+")
 for tempo in range(len(a)):
 	#print (a[tempo]["dur"])
 	legenda = root[tempo].text
