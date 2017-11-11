@@ -20,7 +20,6 @@ import xbmc
 
 sub_path = os.path.dirname(os.path.abspath(__file__))
 videoID = 'XdMCyi_Avzc'
-subtitle = sub_path+"/subtitle.srt"
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
 response = urllib2.urlopen(req)
@@ -31,16 +30,18 @@ list_root = ET.fromstring(sub_list)
 for list_child in list_root:
 	b.append(list_child.attrib)
 
+sub_lang=[]
 code=[]
 for list_code in range(len(b)):
 	code.append(b[list_code]["lang_code"])
+	sub_lang.append(b[list_code]["lang_translated"])
 
 dialog = xbmcgui.Dialog()
 lista = dialog.select('Escolha um idioma', code)
 entrada=code[lista]
+sub_lang=sub_lang[lista]
 
-Lang_Code=[]
-for
+subtitle = "%s/%s.srt" % (sub_path,sub_lang)
 # escrita das legendas
 
 #---------------------------------XML--------------------------------------------------------
@@ -61,7 +62,7 @@ for child in root:
 	a.append(child.attrib)
 
 index = 1
-subFile = open("%s/subtitle.srt" % sub_path,"w+")
+subFile = open("%s/%s.srt" % (sub_path,sub_lang),"w+")
 for tempo in range(len(a)):
 	#print (a[tempo]["dur"])
 	legenda = root[tempo].text
@@ -122,8 +123,6 @@ for tempo in range(len(a)):
 subFile.close()
 
 # fim da escrita das legendas
-
-
 
 if(entrada == code[lista]):
 	dialog.textviewer('Plot', '\nbuscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s' % 
