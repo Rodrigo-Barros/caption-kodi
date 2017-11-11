@@ -8,7 +8,8 @@ import xml.etree.ElementTree as ET
 import json
 from datetime import time
 import os
-
+import sys
+from os import listdir
 import xbmcgui
 import xbmc
 
@@ -18,7 +19,19 @@ import xbmc
 
 # lista as lengendas disponiveis no video http://video.google.com/timedtext?type=list&v=zzfCVBSsvqA
 
+
 sub_path = os.path.dirname(os.path.abspath(__file__))
+
+#------------------------ apagar as legendas para não ficar muitas na mesma pasta--------------------------------------
+directory = sub_path
+test = os.listdir( directory )
+
+for item in test:
+    if item.endswith(".srt"):
+        os.remove( os.path.join( directory, item ) )
+
+#------------------------ apagar as legendas para não ficar muitas na mesma pasta--------------------------------------
+
 videoID = 'XdMCyi_Avzc'
 
 req = urllib2.Request('http://video.google.com/timedtext?type=list&v=%s' %(videoID))
@@ -125,8 +138,7 @@ subFile.close()
 # fim da escrita das legendas
 
 if(entrada == code[lista]):
-	dialog.textviewer('Plot', '\nbuscar legendas para o idioma: %s legendas estão localizadas na pasta: %s \n full path: %s' % 
-		(entrada,sub_path,subtitle))
+	dialog.textviewer('Info', '\n Pressione a tecla esc para continuar' )
 	xbmc.Player().setSubtitles(subtitle)
 	xbmc.Player().showSubtitles(True)
 else:
